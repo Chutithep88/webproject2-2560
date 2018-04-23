@@ -1,79 +1,123 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width , initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-indigo.css">
-  <title>JEP-Diary in Prince of Songkla University</title>
-</head>
+<title>JEP-Diary in Prince of Songkla University</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Kanit", sans-serif}
+.w3-bar,h1,button {font-family: "Kanit", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
 <body>
+
+<!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-red w3-card w3-left-align w3-large w3-white">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+  <div class="w3-bar w3-border w3-card w3-left-align w3-large w3-white">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-white"
     href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">
+      <img src="images/logoindex.png" width="60" height="25">
+    </a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">เกี่ยวกับเรา</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">ช่องทางติดต่อ</a>
   </div>
 </div>
 
-  <header class="w3-container w3-blue w3-center" style="padding:128px 16px">
-    <h1 class="w3-margin w3-jumbo">ไดอารี่ในมหาวิทยาลัยสงขลานครินทร์</h1>
-    <p class="w3-xlarge">Prince of Songkla</p>
-  </header>
-
-  <div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-      <h1><center>ยินดีต้อนรับสู่ไดอารี่ในมหาวิทยาลัยสงขลานครินทร์</center></h1>
-      <br />
-      <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-
-<br />
-<br />
-<br />
-<div class="w3-theme-l5">
-  <div class="w3-row-padding w3-padding-64 w3-container">
-    <img src="images/dog1.jpg" width="400" height="300" align="left">
-    <img src="images/dog1.jpg" width="400" height="300" align="center" hspace="40">
-    <img src="images/dog1.jpg" width="400" height="300" align="right">
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
   </div>
 </div>
 
+<!-- Header -->
+<div class="w3-display-container">
+  <img  src="images/band1.jpg" alt="band" style="width:100%" height="500">
+  <div class="w3-panel w3-black w3-card-4 w3-display-bottommiddle w3-container"><h2>ชีวิตการเรียนรู้ในมหาวิทยาลัยสงขลานครินทร์</h2></div>
+</div>
+
+
+
+<!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
 <div class="w3-content">
-    <h1><center>About us</center></h1>
+    <div class="w3-xxxlarge w3-center">
+      <p>ยินดีต้อนรับสู่ไดอารี่ของพวกเรา</p>
+    </div>
+    <h3>ทุกการเดินทางย่อมมีเรื่องราวพวกเราจะนำเสนอสิ่งที่ได้ประสบพบเจอลงไปในบทความต่างๆจะมีทั้งการเรียนกิจกรรม
+      และชีวิตความเป็นอยู่ของพวกเราพร้อมแล้วไปลุยกันเลย.</h3>
     <br />
-    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
-    <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
-
-  <br />
-  <br />
-  <br />
-  <div class="w3-theme-l3">
-    <div class="w3-row-padding w3-padding-64 w3-container">
-    <div class="w3-content">
-        <h1><center>Contact</center></h1>
-        <br />
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
-        <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-  </div>
-
-<br />
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge"><p>จัดทำโดย JEP จาก มหาวิทยาลัยสงขลานครินทร์ <a href="http://www.fms.psu.ac.th/">FMS</a></p></h1>
 </div>
 
- </footer>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+</div>
+    <div class="w3-row-padding">
+      <div class="w3-third"><img src="images/study.jpg" width="400" height="400" alt="study"></div>
+      <div class="w3-third"><img src="images/activity.jpg" width="400" height="400" alt="activity"></div>
+      <div class="w3-third"><img src="images/dorm.jpg" width="400" height="400" alt="dorm"></div>
+    </div>
+  </div>
+</div>
+
+<!-- zone about-->
+<div class="w3-row-padding w3-padding-64 w3-container">
+<div class="w3-content">
+    <div class="w3-xxxlarge w3-b w3-center">
+      <p>เกี่ยวกับเรา</p>
+    </div>
+    <center><img src="images/two.jpg" width="400" height="400" alt="study"></center>
+    <br />
+    <br />
+    <br />
+    <h3>พวกเราคิดว่าการที่มาเรียนในรั้วมหาวิทยาลัยนั้นเป็นเรื่องที่น่ากลัวสำหรับพวกเรามากเพราะต้องอยู่คนเดียวโดยที่ไม่มีพ่อแม่มาคอยดูแลฉัน
+      เหมือนตอนอยู่บ้าน พวกเราก็กลัวว่าจะเข้ากับเพื่อนใหม่ไม่ได้และกลัวเรียนไม่รู้เรื่องเรียนไม่ทันเขา
+      แต่พอมาเรียนเข้าจริงๆนั้นมันกลับไม่เป็นอย่างที่พวกเรากลัวเลยเพราะการที่พวกเราได้มาเรียนที่รั้วมหาวิทยาลัยสงขลานครินทร์นั้นมันทำให้พวกเรารู้จัก
+      การช่วยเหลือตัวเองพึ่งพาตนเองและได้รู้จักเพื่อนใหม่ๆ มีพี่ๆมาค่อยดูแลพวกเราทำให้พวกไม่เหงาและยังทำให้พวกเรากล้าที่จะแสดงออกอีกด้วย
+      ส่วนเรื่องเรียนก็ไม่ยากอย่างที่พวกเรากลัวอีกด้วย การที่พวกเราจะใช้ชีวิตในรั้วมหาวิทยาลัยให้คุ้มกับเวลาที่พวกเรามาเรียนนั้นพวกเราต้องรู้จัก
+      เก็บเกี่ยวความรู้เอาไว้ให้มากๆทั้งกิจกรรมในมหาวิทยาลัยหรือนอกมหาวิทยาลัย
+    </h3>
+    <br />
+  </div>
+</div>
+
+<center><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1inmd6J8Oy7LY8Zbn-L23WKOf1lJ-C-9V" width="300" height="400">
+</iframe></center>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-48 w3-center w3-opacity">
+  <div class="w3-xlarge w3-padding-32">
+    <h1 class="w3-xlarge">ช่องทางการติดต่อ</h1>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
 </body>
 </html>
