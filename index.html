@@ -21,10 +21,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Kanit", sans-serif}
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-white"
     href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">
-      <img src="images/logoindex.png" width="60" height="25">
+      <img src="images/logoindex.png" width="60" height="35">
     </a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">เกี่ยวกับเรา</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">ช่องทางติดต่อ</a>
+    <a href="#item1" class="w3-bar-item w3-button w3-hide-small w3-padding-16 w3-white">เกี่ยวกับเรา</a>
+    <a href="#item2" class="w3-bar-item w3-button w3-hide-small w3-padding-16 w3-white">ช่องทางติดต่อ</a>
   </div>
 </div>
 
@@ -48,6 +48,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Kanit", sans-serif}
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
 <div class="w3-content">
+    <center><img src="images/logoindex1.png" width="300" height="200" alt="logoindex1"></center>
     <div class="w3-xxxlarge w3-center">
       <p>ยินดีต้อนรับสู่ไดอารี่ของพวกเรา</p>
     </div>
@@ -62,11 +63,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Kanit", sans-serif}
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
 </div>
+    <div class="w3-xxlarge">
+      <p><center>กิจกรรมต่างในบล็อกแห่งนี้ ลองคลิ้กที่รูปภาพดูสิ</center></p>
+    </div>
     <div class="w3-row-padding">
-      <div class="w3-third"><img src="images/study.jpg" width="300" height="300" alt="study"></div>
-      <div class="w3-third"><a href="activity.html" class="w3-button">
-        <img src="images/activity.jpg" width="300" height="300" alt="activity"></a></div>
-      <div class="w3-third"><img src="images/dorm.jpg" width="300" height="300" alt="dorm"></div>
+      <div class="w3-third"><a href="study.html">
+        <img src="images/study.jpg" width="300" height="300" alt="study" title="การเรียนในมหาวิทยาลัย"></a></div>
+      <div class="w3-third"><a href="activity.html">
+        <img src="images/activity.jpg" width="300" height="300" alt="activity" title="กิจกรรมต่างๆในมหาวิทยาลัย"></a></div>
+      <div class="w3-third"><a href="dorm.html">
+        <img src="images/dorm.jpg" width="300" height="300" alt="dorm" title="ชีวิตหอพักในมหาวิทยาลัย"></a></div>
     </div>
   </div>
 </div>
@@ -74,8 +80,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Kanit", sans-serif}
 <!-- zone about-->
 <div class="w3-row-padding w3-padding-64 w3-container">
 <div class="w3-content">
-    <div class="w3-xxxlarge w3-b w3-center">
-      <p>เกี่ยวกับเรา</p>
+    <div class="w3-xxxlarge w3-b w3-center w3-item">
+      <p id="item1"><i class="fa fa-home"></i></p>
+        <p>เกี่ยวกับเรา</p>
     </div>
     <center><img src="images/two.jpg" width="400" height="400" alt="study"></center>
     <br />
@@ -97,14 +104,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Kanit", sans-serif}
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-48 w3-center w3-opacity">
-  <div class="w3-xlarge w3-padding-32">
-    <h1 class="w3-xlarge">ช่องทางการติดต่อ</h1>
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <div class="w3-xlarge w3-padding-32 w3-item">
+  <div id="item2">
+    <h1 class="w3-xlarge"><p>ช่องทางการติดต่อ</p></h1>
+    <h3>Email : Chutithep.Job@gmail.com  Earth17574@hotmail.com</h3>
+  </div>
+    <a href="https://www.facebook.com/tfntv"><i class="fa fa-facebook-official w3-xxlarge w3-hover-opacity"></i></a>
+    <a href="http://picbear.club/earthtfn"><i class="fa fa-instagram w3-xxlarge w3-hover-opacity"></i></a>
  </div>
 </footer>
 
